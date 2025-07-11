@@ -1,0 +1,653 @@
+@import url(/css/common.css);
+
+/* 共通 */
+header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 80px 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+/* sticky */
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+nav ul {
+    background-color: rgba(238, 233, 233, 0.5);
+    border-radius: 50px;
+    padding: 0 20px;
+    justify-content: center;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+nav ul li {
+    padding: 25px;
+}
+/* footer */
+footer {
+    background-color: #CCC5C0;
+}
+footer section {
+    justify-content: space-between;
+}
+.go_top {
+    top: 20%;
+    right: 0;
+}
+.go_top img {
+    width: 80%;
+}
+.copy::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border: #331B03 solid 1px;
+}
+/* pdg mgn */
+section {
+    padding-bottom: 80px;
+}
+section:first-child {
+    padding-top: 80px;
+}
+.container {
+    margin: 0 80px;
+}
+.item {
+    line-height: 40px;
+    letter-spacing: 5%;
+    padding-bottom: 50px;
+}
+.item:last-child {
+    padding-bottom: 0;
+}
+.item h3 {
+    padding-bottom: 25px;
+}
+p {
+    line-height: 40px;
+    line-break: normal;
+}
+.br_157 {
+    display: none;
+}
+.br_128 {
+        display: none;
+    }
+.br_959 {
+    display: none;
+}
+/* ボタン */
+.btn {
+    width: 430px;
+}
+.btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #CCB7A7;
+    border-radius: 50px;
+    border: #331B03 solid 1px;
+}
+.btn p {
+    padding-left: 37%;
+}
+.btn p::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/images/btn_arow.png);
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+/* top */
+/* maenV */
+#mainV img {
+    opacity: 0.5;
+}
+h1 {
+    line-height: 115%;
+}
+.Vtext {
+    top: 45%;
+    left: 80px;
+    line-height: 50px;
+}
+.scroll {
+    width: 110px;
+    height: 110px;
+    top: 75%;
+    left: 48%;
+}
+
+/* works */
+#works .content {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+#works .content .item h5 {
+    padding-top: 30px;
+}
+
+/* top_profile */
+#top_profile .content {
+    justify-content: left;
+    align-items: flex-end;
+    gap: 100px;
+}
+#top_profile .content .item {
+    align-items: flex-end;
+    width: 75%;
+}
+#top_profile .content .item .text {
+    line-height: 30px;
+}
+
+
+/* about */
+.about {
+    padding-top: 120px;
+}
+.cat {
+    width: 100%;
+    height: 100%;
+    top: -2%;
+    right: -38%;
+    background-image: url(/images/about_cat.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.7;
+}
+
+/* profile */
+#profile .content {
+    justify-content: left;
+    align-items: flex-end;
+    gap: 100px;
+    line-height: 40px;
+}
+#profile .content img {
+    width: 30%;
+}
+/* skill */
+.skill_tag {
+    padding-top: 20px;
+    gap: 20px;
+}
+.skill_tag p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F6F1ED;
+    border-radius: 50px;
+    border: #331B03 solid 1px;
+    text-align: center;
+    width: 272px;
+}
+/* Biography */
+#biography table tbody tr {
+    line-height: 40px;
+}
+#biography table tr::before {
+    content: "";
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    background-image: url(/images/clover.png);
+    width: 50px;
+    height: 40px;
+}
+#biography table tr td {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* aboutページの９５９以下
+　　　タブレットサイズから再開 */
+
+
+
+
+@media screen and (max-width: 1500px) {
+/* 共通 */
+    h1 {/*大見出しの装飾をします*/
+        font-size: 4rem;/*数値は可変です80*/
+        top: 350px;
+        left: 80px;
+    }
+    h2 {/*中見出しの装飾をします*/
+        font-size: 2.5rem;/*数値は可変です50*/
+        padding-bottom: 30px;
+    }
+    h3 {/*小見出しの装飾をします*/
+        font-size: 1.5rem;/*数値は可変です30*/
+    }
+    h4 {/*小見出しの装飾をします*/
+        font-size: 1.1rem;/*数値は可変です22*/
+    }
+    /* pdg mgn br*/
+    .item {
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    .item h3 {
+        padding-bottom: 20px;
+    }
+    .br_157 {
+        display: block;
+    }
+    .no_157 {
+        display: none;
+    }
+    /* ボタン */
+    .btn {
+        width: 350px;
+    }
+    .btn p {
+        padding-left: 35%;
+    }
+    .btn p::after {
+        top: 38%;
+    }
+/* トップ */
+    .scroll {
+        width: 60px;
+        top: 88%;
+    }
+    /* works */
+    #works .content {
+        gap: 40px;
+    }
+    #works .content .item {
+        padding-bottom: 0;
+    }
+    #works .content .item h5 {
+        padding-top: 10px;
+    }
+/* about */
+    .about {
+        padding-top: 100px;
+    }
+    .cat {
+        background-image: url(/images/about_cat1280.png);
+    }
+    /* profile */
+    #profile .content img {
+        width: 32%;
+    }
+    /* skill */
+    .skill_tag p {
+        width: 220px;
+    }
+    /* Biography */
+    #biography table tr::before {
+        width: 40px;
+        height: 35px;
+        background-size: 30px 30px;
+    }
+}
+@media screen and (max-width: 1279px) {
+/* 共通 */
+    h1 {/*大見出しの装飾をします*/
+        font-size: 3.5rem;/*数値は可変です80*/
+        top: 230px;
+    }
+    h2 {/*中見出しの装飾をします*/
+        font-size: 2rem;/*数値は可変です50*/
+    }
+    h3 {/*小見出しの装飾をします*/
+        font-size: 1.2rem;/*数値は可変です30*/
+    }
+    h4 {/*小見出しの装飾をします*/
+        font-size: 1rem;/*数値は可変です22*/
+    }
+    h5 {/*小見出しの装飾をします*/
+        font-size: 0.8rem;/*数値は可変です20*/
+    }
+    /* header */
+    .logo {
+        width: 20%;
+    }
+    nav ul li {
+        padding: 10px;
+        opacity: 0.8;
+        font-size: 0.8rem;
+    }
+    /* footer */
+    footer .go_top {
+        width: 10%;
+    }
+    /* pdg mgn */
+    section {
+        padding-bottom: 50px;
+    }
+    section:first-child {
+        padding-top: 50px;
+    }
+    .item {
+        padding-bottom: 20px;
+    }
+    .item h3 {
+        padding-bottom: 20px;
+    }
+    p , tbody {
+        line-height: 30px;
+        font-size: 0.85rem;
+    }
+    .br_128 {
+        display: block;
+    }
+    .no_128 {
+        display: none;
+    }
+       /* ボタン */
+    .btn {
+        width: 250px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .btn p {
+        padding-left: 32%;
+    }
+    .btn p::after {
+        top: 35%;
+        width: 40px;
+    }
+/* トップ */
+    .Vtext {
+        line-height: 30px;
+    }
+    .scroll {
+        top: 85%;
+    }
+    /* works */
+    #works .content {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    /* top_profile */
+    #top_profile .content {
+        gap: 8%;
+    }
+
+/* about */
+    .cat {
+        background-image: url(/images/about_cat959.png);
+        right: -30%;
+    }
+    /* profile */
+    #profile .content img {
+        width: 40%;
+    }
+    /* skill */
+    .skill_tag p {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 959px) {
+/* 共通 */
+    h1 {/*大見出しの装飾をします*/
+        font-size: 2.5rem;/*数値は可変です80*/
+    }
+    h2 {/*中見出しの装飾をします*/
+        font-size: 1.8rem;/*数値は可変です50*/
+        padding-bottom: 20px;
+    }
+    h3 {/*小見出しの装飾をします*/
+        font-size: 1.2rem;/*数値は可変です30*/
+    }
+    h4 {/*小見出しの装飾をします*/
+        font-size: 0.85rem;/*数値は可変です22*/
+    }
+    h5 {/*小見出しの装飾をします*/
+        font-size: 0.8rem;/*数値は可変です20*/
+    }
+    /* header */
+    header {
+        padding: 40px 50px 0;
+    }
+    nav ul {
+        top: 30px;
+        right: 50px;
+    }
+    /* footer */
+    .font48 {
+        font-size: 1.2rem;
+    }
+    .copy {
+        font-size: 0.4rem;
+    }
+    /* pdg mgn */
+    .container {
+        margin: 0 50px;
+    }
+    .item {
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .item h3 {
+        padding-bottom: 10px;
+    }
+    p , tbody {
+        font-size: 0.75rem;
+    }
+    .br_959 {
+        display: block;
+    }
+    .no_959 {
+        display: none;
+    }
+       /* ボタン */
+    .btn {
+        width: 200px;
+    }
+    .btn p::after {
+        top: 20%;
+    }
+/* トップ */
+    .Vtext {
+        top: 40%;
+        left: 50px;
+    }
+    .scroll {
+        top: 86%;
+    }
+    /* top_profile */
+    #top_profile .content .img {
+        width: 50%;
+    }
+
+/* about */
+    .cat {
+        background-image: url(/images/about_cat959.png);
+        top: 0;
+    }
+    /* profile */
+    #profile .content {
+        gap: 5%;
+    }
+    #profile .content img {
+        width: 35vw;
+    }
+
+    /* skill */
+    .skill_tag {
+        padding-top: 10px;
+    }
+    .skill_tag p {
+        width: 20%;
+        font-size: 0.6rem;
+    }
+    /* Biography */
+    #biography table tr::before {
+        width: 40px;
+        height: 32px;
+        background-size: 25px 25px;
+    }
+    #biography table tr td {
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 430px){
+/* 共通 */
+    body,html {/*ページ全体の装飾をします*/
+        font-size: 16px;/*数値は可変です*/
+    }
+    h1 {/*大見出しの装飾をします*/
+        font-size: 2.2rem;/*数値は可変です80*/
+    }
+    h2 {/*中見出しの装飾をします*/
+        font-size: 1.8rem;/*数値は可変です50*/
+        padding-bottom: 20px;
+    }
+    h3 {/*小見出しの装飾をします*/
+        font-size: 1.5rem;/*数値は可変です30*/
+    }
+    h4 {/*小見出しの装飾をします*/
+        font-size: 0.7rem;/*数値は可変です30*/
+    }
+    h5 {/*小見出しの装飾をします*/
+        font-size: 1rem;/*数値は可変です20*/
+    }
+    p , tbody , li {
+        line-height: 30px;
+        font-size: 0.9rem;
+    }
+    /* header */
+    header {
+        padding: 20px 20px 0;
+    }
+    nav ul {
+        right: 30px;
+        top: 13px;
+    }
+    nav ul li{
+        padding: 0 5px;
+        font-size: 0.7rem;
+    }
+    /* footer */
+    .font48 {
+        font-size: 1rem;
+    }
+    .go_top {
+        top: 30%;
+    }
+    .go_top img{
+        width: 150%;
+    }
+    footer .contact h4 span {
+        padding-left: 5px;
+    }
+    .copy {
+        font-size: 0.6rem;
+    }
+    /* pdg mgn */
+    section {
+        padding-bottom: 40px;
+    }
+    section:first-child {
+        padding-top: 40px;
+    }
+    .container {
+        margin: 0 40px;
+    }
+    .item {
+        padding-bottom: 30px;
+    }
+    .item h3 {
+        padding-bottom: 10px;
+    }
+
+    .no_43 {
+        display: none;
+    }
+/* トップ */
+    .Vtext {
+        top: 35%;
+        left: 30px;
+        line-height: 20px;
+    }
+    .Vtext h4 {
+        font-size: 0.65rem;
+        font-weight: 500;
+    }
+    .scroll {
+        width: 12%;
+        top: 88%;
+        left: 45%;
+    }
+    /* works */
+    #works .content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    /* top_profile */
+    #top_profile .content {
+        justify-content: left;
+        gap: 30px;
+    }
+    #top_profile .content .item {
+        width: 100%;
+    }
+    #top_profile .content .img {
+        width: 100%;
+    }
+/* about */
+    .about {
+        padding-top: 50px;
+    }
+    .cat {
+        background-image: url(/images/about_cat4500.png);
+        right: -10%;
+    }
+    /* profile */
+    #profile .content {
+        align-items: first baseline;
+    }
+    #profile .content img {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    /* skill */
+    .skill_tag {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 11%;
+    }
+    .skill_tag p {
+        width: 100%;
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+    /* character */
+    .font20 {
+        font-size: 0.7rem;
+        padding-left: 5px;
+    }
+    /* Biography */
+    #biography table tr td {
+        padding-left: 5%;
+        padding-bottom: 30px;
+        padding-top: 5px;
+    }
+    #biography table tr::before {
+        width: 25px;
+        height: 28px;
+        background-size: 20px 20px;
+    }
+}
