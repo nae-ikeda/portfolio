@@ -1,4 +1,4 @@
-@import url(/css/common.css);
+@import url(./common.css);
 
 /* 共通 */
 header {
@@ -101,7 +101,7 @@ p {
     content: "";
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/images/btn_arow.png);
+    background-image: url(../images/btn_arow.png);
     display: inline-block;
     width: 50px;
     height: 15px;
@@ -163,7 +163,7 @@ h1 {
     height: 100%;
     top: -2%;
     right: -38%;
-    background-image: url(/images/about_cat.png);
+    background-image: url(../images/about_cat.png);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.7;
@@ -203,7 +203,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    background-image: url(/images/clover.png);
+    background-image: url(../images/clover.png);
     width: 50px;
     height: 40px;
 }
@@ -283,7 +283,7 @@ h1 {
         padding-top: 100px;
     }
     .cat {
-        background-image: url(/images/about_cat1280.png);
+        background-image: url(../images/about_cat1280.png);
     }
     /* profile */
     #profile .content img {
@@ -386,7 +386,7 @@ h1 {
 
 /* about */
     .cat {
-        background-image: url(/images/about_cat959.png);
+        background-image: url(../images/about_cat959.png);
         right: -30%;
     }
     /* profile */
@@ -473,7 +473,7 @@ h1 {
 
 /* about */
     .cat {
-        background-image: url(/images/about_cat959.png);
+        background-image: url(../images/about_cat959.png);
         top: 0;
     }
     /* profile */
@@ -612,7 +612,7 @@ h1 {
         padding-top: 50px;
     }
     .cat {
-        background-image: url(/images/about_cat4500.png);
+        background-image: url(../images/about_cat4500.png);
         right: -10%;
     }
     /* profile */
