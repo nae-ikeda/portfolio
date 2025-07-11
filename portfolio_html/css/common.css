@@ -1,0 +1,221 @@
+/* ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+
+　　　　1.このCSSは基本的に変更しません（可変の部分は除いて）
+
+　　　　2.リセットCSSはdestyle.cssを使います
+　　　　  https://github.com/nicolas-cusan/destyle.css
+　　　　
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※*/
+body,html {/*ページ全体の装飾をします*/
+    font-size: 20px;/*数値は可変です*/
+    color: #0F0800;/*数値は可変です*/
+    font-family: "Inria Serif", serif;/*種類は可変です*/
+}
+main {
+    background-color: #EFEEEC;/*数値は可変です*/
+}
+
+/*ヘディングここから*/
+h1 {/*大見出しの装飾をします*/
+    font-size: 6.4rem;/*数値は可変です128*/
+}
+h2 {/*中見出しの装飾をします*/
+    font-size: 3.2rem;/*数値は可変です64*/
+    padding-bottom: 50px;
+    font-family: "Emilys Candy", "Inria Serif";
+}
+h3 {/*小見出しの装飾をします*/
+    font-weight: bold;
+    font-size: 1.8rem;/*数値は可変です36*/
+}
+h4 {/*小見出しの装飾をします*/
+    font-size: 1.2rem;/*数値は可変です24*/
+}
+h5 {/*小見出しの装飾をします*/
+    font-size: 1rem;/*数値は可変です20*/
+}
+h6 {/*小見出しの装飾をします*/
+    font-size: 0.8rem;/*数値は可変です16*/
+}
+.font48 {
+    font-size: 1.8rem;
+}
+.font20 {
+    font-size: 1rem;
+}
+/*ヘディングここまで*/
+/*テキストここから*/
+.ftB {/*文字を太文字にするときに使います*/
+    font-weight: bold;
+}
+.txtC {/*文字を中央ぞろえにするときに使います*/
+    text-align: center;
+}
+.txtR {
+    text-align: right;
+}
+/*テキストここまで*/
+/*ボーダーここから*/
+.r5 {/*角丸5pxを付けるときに使います*/
+    border-radius: 5px;
+}
+.r20 {/*角丸20pxを付けるときに使います*/
+    border-radius: 20px;
+}
+/*ボーダーここまで*/
+/*画像ここから*/
+img {/*画像の装飾をします*/
+    width: 100%;/*親ブロックと同じ幅になります*/
+    height: auto;/*幅を基準としたアスペクト比で決まる高さです*/
+    object-fit: cover;/*アスペクト比を維持したまま表示します*/
+}
+/*画像ここまで*/
+/*ディスプレイここから*/
+.block {/* ブロック要素を表示したいときに使います */
+    display: block;
+}
+.none {/*ブロック要素を非表示にしたいときに使います*/
+    display: none;
+}
+.pcFlex {/*PC表示時要素を横並びにするときに使います*/
+    display: flex;
+}
+.grid {/*グリッドレイアウトにするときに使います*/
+    display: grid;
+}
+.flexC {/*要素を上下左右中央に配置するときに使います*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*ディスプレイここまで*/
+/*ポジションここから*/
+.rtv {/*親要素を基準にするときに使います*/
+    position: relative;
+}
+.abs {/*子要素の位置を定めるときに使います*/
+    position: absolute;
+}
+/*パディングここから*/
+.pdgT10 {/*要素の内側に余白を付けるときに使います*/
+    padding-top: 10px;
+}
+.pdgT20 {/*要素の内側に余白を付けるときに使います*/
+    padding-top: 20px;
+}
+.pdgT30 {/*要素の内側に余白を付けるときに使います*/
+    padding-top: 30px;
+}
+.pdgT40 {/*要素の内側に余白を付けるときに使います*/
+    padding-top: 40px;
+}
+.pdgR10 {/*要素の内側に余白を付けるときに使います*/
+    padding-right: 10px;
+}
+.pdgR20 {/*要素の内側に余白を付けるときに使います*/
+    padding-right: 20px;
+}
+.pdgR30 {/*要素の内側に余白を付けるときに使います*/
+    padding-right: 30px;
+}
+.pdgR40 {/*要素の内側に余白を付けるときに使います*/
+    padding-right: 40px;
+}
+.pdgB10 {/*要素の内側に余白を付けるときに使います*/
+    padding-bottom: 10px;
+}
+.pdgB20 {/*要素の内側に余白を付けるときに使います*/
+    padding-bottom: 20px;
+}
+.pdgB30 {/*要素の内側に余白を付けるときに使います*/
+    padding-bottom: 30px;
+}
+.pdgB40 {/*要素の内側に余白を付けるときに使います*/
+    padding-bottom: 40px;
+}
+.pdgB80 {/*要素の内側に余白を付けるときに使います*/
+    padding-bottom: 80px;
+}
+.pdgL10 {/*要素の内側に余白を付けるときに使います*/
+    padding-left: 10px;
+}
+.pdgL20 {/*要素の内側に余白を付けるときに使います*/
+    padding-left: 20px;
+}
+.pdgL30 {/*要素の内側に余白を付けるときに使います*/
+    padding-left: 30px;
+}
+.pdgL40 {/*要素の内側に余白を付けるときに使います*/
+    padding-left: 40px;
+}
+/*パディングここまで*/
+/*マージンここから*/
+.mgnA {/*ブロック要素を中央に配置するときに使います*/
+    margin: auto;
+}
+.mgnT10 {/*要素の外側に余白を付けたいときに使います*/
+    margin-top: 10px;/*上側10px*/
+}
+.mgnT20 {/*要素の外側に余白を付けたいときに使います*/
+    margin-top: 20px;/*上側20px*/
+}
+.mgnT30 {/*要素の外側に余白を付けたいときに使います*/
+    margin-top: 30px;/*上側30px*/
+}
+.mgnT40 {/*要素の外側に余白を付けたいときに使います*/
+    margin-top: 40px;/*上側40px*/
+}
+.mgnT50 {/*要素の外側に余白を付けたいときに使います*/
+    margin-top: 50px;/*上側50px*/
+}
+.mgnR10 {/*要素の外側に余白を付けたいときに使います*/
+    margin-right: 10px;/*右側10px*/
+}
+.mgnR20 {/*要素の外側に余白を付けたいときに使います*/
+    margin-right: 10px;/*上側10px*/
+}
+.mgnR30 {/*要素の外側に余白を付けたいときに使います*/
+    margin-right: 10px;/*上側10px*/
+}
+.mgnR40 {/*要素の外側に余白を付けたいときに使います*/
+    margin-right: 10px;/*上側10px*/
+}
+.mgnR50 {/*要素の外側に余白を付けたいときに使います*/
+    margin-right: 10px;/*上側10px*/
+}
+.mgnB10 {/*要素の外側に余白を付けたいときに使います*/
+    margin-bottom: 10px;/*下側10px*/
+}
+.mgnB20 {/*要素の外側に余白を付けたいときに使います*/
+    margin-bottom: 20px;/*下側20px*/
+}
+.mgnB30 {/*要素の外側に余白を付けたいときに使います*/
+    margin-bottom: 30px;/*下側30px*/
+}
+.mgnB40 {/*要素の外側に余白を付けたいときに使います*/
+    margin-bottom: 40px;/*下側40px*/
+}
+.mgnB50 {/*要素の外側に余白を付けたいときに使います*/
+    margin-bottom: 50px;/*下側50px*/
+}
+.mgnL10 {/*要素の外側に余白を付けたいときに使います*/
+    margin-left: 10px;/*左側10px*/
+}
+.mgnL20 {/*要素の外側に余白を付けたいときに使います*/
+    margin-left: 20px;/*左側20px*/
+}
+.mgnL30 {/*要素の外側に余白を付けたいときに使います*/
+    margin-left: 30px;/*左側30px*/
+}
+.mgnL40 {/*要素の外側に余白を付けたいときに使います*/
+    margin-left: 40px;/*左側40px*/
+}
+.mgnL50 {/*要素の外側に余白を付けたいときに使います*/
+    margin-left: 50px;/*左側50px*/
+}
+/*マージンここまで*/
+@media screen and (max-width: 430px) {
+    .spFlex {/*スマホ表示時要素を縦並びにするときに使います*/
+        flex-direction: column;
+    }
+}
